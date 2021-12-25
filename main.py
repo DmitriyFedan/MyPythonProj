@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 from datetime import datetime
-
+from random import randint
 
 # ====создание и настройки даты и времени =====
 class Alarms:
