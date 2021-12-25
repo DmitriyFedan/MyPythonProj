@@ -86,7 +86,7 @@ class Clock:
                          self.alarms_dict[i].user_MM + "  " + \
                          self.alarms_dict[i].user_mess
             alarms_listbox.insert(END, alarm_text)
-        self.alarms_dict.sort()
+        ##self.alarms_dict.sort()
 
     def entry_s_clear(self):
         ent_M.delete(0, 50)
