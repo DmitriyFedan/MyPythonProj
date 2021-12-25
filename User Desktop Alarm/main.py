@@ -1,9 +1,8 @@
 from tkinter import *
 from tkinter import messagebox
 from datetime import datetime
-from random import randint
 
-a = 5
+
 # ====создание и настройки даты и времени =====
 class Alarms:
     user_HH = 0
